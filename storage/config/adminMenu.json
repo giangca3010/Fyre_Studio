@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Menu trang chủ",
+        "url": "admin/client-menus",
+        "is_active": true,
+        "icon": "core-ui-assets/vendors/@coreui/icons/svg/free.svg#cil-notes",
+        "parent_id": 0,
+        "position": 1,
+        "menu_children": null
+    },
+    {
+        "name": "Cấu hình web",
+        "url": "#",
+        "is_active": true,
+        "icon": "",
+        "parent_id": 0,
+        "position": 2,
+        "menu_children": [
+            {
+                "name": "Cấu hình banner",
+                "url": "/admin/banners",
+                "is_active": true,
+                "icon": "",
+                "parent_id": 2,
+                "position": 1
+            },
+            {
+                "name": "Về chúng tôi",
+                "url": "/admin/about-us",
+                "is_active": true,
+                "icon": "",
+                "parent_id": 2,
+                "position": 2
+            },
+            {
+                "name": "Liên hệ",
+                "url": "/admin/contact",
+                "is_active": true,
+                "icon": "",
+                "parent_id": 2,
+                "position": 3
+            },
+            {
+                "name": "Footer",
+                "url": "/admin/footers",
+                "is_active": true,
+                "icon": "",
+                "parent_id": 2,
+                "position": 4
+            }
+        ]
+    },
+    {
+        "name": "Our team",
+        "url": "admin/our-teams",
+        "is_active": true,
+        "icon": "core-ui-assets/vendors/@coreui/icons/svg/free.svg#cil-notes",
+        "parent_id": 0,
+        "position": 3,
+        "menu_children": null
+    },
+    {
+        "name": "Service",
+        "url": "admin/services",
+        "is_active": true,
+        "icon": "core-ui-assets/vendors/@coreui/icons/svg/free.svg#cil-notes",
+        "parent_id": 0,
+        "position": 4,
+        "menu_children": null
+    },
+    {
+        "name": "Blog",
+        "url": "admin/blogs",
+        "is_active": true,
+        "icon": "core-ui-assets/vendors/@coreui/icons/svg/free.svg#cil-notes",
+        "parent_id": 0,
+        "position": 5,
+        "menu_children": null
+    },
+    {
+        "name": "Portfolio",
+        "url": "",
+        "is_active": true,
+        "icon": "core-ui-assets/vendors/@coreui/icons/svg/free.svg#cil-notes",
+        "parent_id": 0,
+        "position": 6,
+        "menu_children": [
+            {
+                "name": "Category portfolio",
+                "url": "/admin/category-portfolios",
+                "is_active": true,
+                "icon": "",
+                "parent_id": 6,
+                "position": 1
+            },
+            {
+                "name": "Portfolios",
+                "url": "/admin/portfolios",
+                "is_active": true,
+                "icon": "",
+                "parent_id": 6,
+                "position": 2
+            }
+        ]
+    }
+]

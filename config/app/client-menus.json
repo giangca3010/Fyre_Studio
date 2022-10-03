@@ -1,0 +1,27 @@
+[
+  {
+    "name_en": "Home",
+    "name_vi": "Trang chủ",
+    "router": "home"
+  },
+  {
+    "name_en": "About Us",
+    "name_vi": "Về chúng tôi",
+    "router": "about-us"
+  },
+  {
+    "name_en": "Portfolio",
+    "name_vi": "Dự án",
+    "router": "portfolio"
+  },
+  {
+    "name_en": "Blog",
+    "name_vi": "Blog",
+    "router": "blog"
+  },
+  {
+    "name_en": "Contact",
+    "name_vi": "Liên hệ",
+    "router": "contact"
+  }
+]
